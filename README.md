@@ -25,12 +25,12 @@ This project presents a fully functional traffic light control system using micr
 
 | Component                  | Description                                      |
 |---------------------------|--------------------------------------------------|
-| 👨‍💻 Microcontroller        | Arduino UNO (or Mega)                            |
+| 👨‍💻 Microcontroller        | ESP32 38PIN                                      |
 | 💡 LEDs                   | 8 signal lights for 2 directions                 |
-| ⏱  7-segment display      | Countdown timer for traffic phases              |
-| 🖥  LCD I2C                | Show time + operating mode                      |
-| 🪛 C# WinForms App         | Send time configs and control modes             |
-| 🔌 Communication          | UART (Serial) between Arduino & C# app          |
+| ⏱  7-segment display      | Countdown timer for traffic phases   IC 74HC595  |
+| 🖥  LCD I2C                | Show time + operating mode                       |
+| 🪛 C# WinForms App        | Send time configs and control modes             |
+| 🔌 Communication          | UART (Serial) between Arduino & C# app           |
 
 ---
 
